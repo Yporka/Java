@@ -13,7 +13,7 @@ public class MapDemo {
         System.out.println("Студенты с баллом выше " + threshold + ":");
         for (Map.Entry<String, Integer> entry : studentScores.entrySet()) {
             if (entry.getValue() > threshold) {
-                System.out.println(entry.getKey() + " = " + entry.getValue());
+                System.out.println(entry.getKey() + " → " + entry.getValue());
             }
         }
     }
